@@ -1,4 +1,4 @@
-# Prasunet_ML_03
+
 This project is about classifying the images of dogs & cats from kaggle dataset.
 The specific tools used in the project might depend on the programming language and chosen libraries, but here's a general breakdown of the typical tools involved in an SVM image classification project for cats vs. dogs:
 
