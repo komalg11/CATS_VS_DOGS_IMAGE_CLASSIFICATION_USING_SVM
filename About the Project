@@ -1,1 +1,13 @@
-The project uses support vector machine (svm) to classify images of cats & dogs respectively.
+The project involves using Support Vector Machines (SVM) for image classification, specifically to differentiate between cats and dogs. Here's a breakdown of the process:
+
+Data Collection: The project likely starts with a dataset containing images of labeled cats and dogs. This dataset provides the training data for the SVM model.
+
+Feature Extraction: Since SVMs don't directly work with images, features need to be extracted from the images. These features could be things like color histograms, edge detection results, or even activations from a pre-trained convolutional neural network (CNN).
+
+Model Training: The extracted features and their corresponding labels (cat or dog) are used to train the SVM model. The SVM learns to identify the most significant features that differentiate cats from dogs.
+
+Classification: Once trained, the SVM model can be used to classify new, unseen images. The extracted features from the new image are fed into the model, and it predicts whether the image is a cat or a dog based on the learned decision boundary.
+
+Evaluation: The model's performance is evaluated on a separate test dataset to assess its accuracy in classifying cat and dog images.
+
+This project demonstrates how SVMs can be used for image classification tasks. While SVMs can be effective, it's important to note that Convolutional Neural Networks (CNNs) are often the preferred choice for modern image classification due to their higher accuracy, especially with large datasets.
